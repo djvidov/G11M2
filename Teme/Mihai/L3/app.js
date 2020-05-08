@@ -2,21 +2,21 @@ function primafunctie() {
     alert("Functioneaza");
 }
 function adouafunctie() {alert("Da!")}
-var Firma
+
 Firma="Adidas"
-alert("Acesta este " + Firma)
-var Localitate
+function ofunctie(){alert("Acesta este " + Firma)}
+
 Localitate="Bucuresti"
-alert("Localitatea este " + Localitate)
-var Tara 
+function functiel(){alert("Localitatea este " + Localitate)}
+
 Tara="Romania"
-alert("Tara este "+ Tara)
-var Administrator
+function functiet(){alert("Tara este "+ Tara)}
+
 Administrator="Mihai"
-alert("Bosulica este " + Administrator)
-var Administratorul
-Administratorul="Alex"
-alert("Mai putin bosulica este " + Administrator)
-var Localiatenoua
+function functiea(){alert("Bosulica este " + Administrator)}
+
+Adm="Alex"
+function functiem(){alert("Mai putin bosulica este " + Adm)}
+
 Localitatenoua='Cluj'
-alert("Ne-am mutat la "+Localitatenoua)
+function functialoc(){alert("Ne-am mutat la "+Localitatenoua)}
