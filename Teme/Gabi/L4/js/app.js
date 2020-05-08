@@ -1,20 +1,22 @@
-var nume = "Firma"
+var Firma = "LEMET"  
+        alert("Acesta este " + Firma)
 
+var localitate
+localitate = "Brebu"  
+        alert("Localitatea este "+ localitate )
 
-Nume = "LEMET"  // nume companie
-        alert("Acesta este: " + nume)
- 
-nume = "Brebu"  // nume localitate
-        alert("Localitatea este "+ nume)
+var tara        
+tara = "Romania" 
+        alert ("Tara de unde provine este " + tara)
 
-nume = "Roomania" // tara
-        alert ("Tara de unde provine este " + nume)
+var NumeAdministrator
+NumeAdministrator = "Gabi" 
+        alert ("Numele administratorului este " + NumeAdministrator)
 
-nume = "Gabi" // nume administrator
-        alert ("Numele administratorului este " + nume)
+var LocalitateSchimbata
+localitate = "Campina"   
+        alert ("Nume localitate schimbata") + LocalitateSchimbata
 
-nume = "Campina"   // localitate schimbata
-        alert ("Nume localitate schimbata " + nume)
-
-nume= Dragan       // nume administrator schimbat
-         alert ("Nume administrator schimbat " + nume )
+var NumeSchimbat 
+NumeSchimbat= Dragan   
+         alert ("Nume administrator schimbat ") + NumeSchimbat
