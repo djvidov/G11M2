@@ -1,4 +1,5 @@
-var Firma = "LEMET"  
+var Firma 
+Firma = "LEMET"  
         alert("Acesta este " + Firma)
 
 var localitate
@@ -13,10 +14,11 @@ var NumeAdministrator
 NumeAdministrator = "Gabi" 
         alert ("Numele administratorului este " + NumeAdministrator)
 
-var LocalitateSchimbata
-localitate = "Campina"   
-        alert ("Nume localitate schimbata") + LocalitateSchimbata
-
 var NumeSchimbat 
-NumeSchimbat= Dragan   
-         alert ("Nume administrator schimbat ") + NumeSchimbat
+NumeSchimbat = "Dragan"   
+         alert ("Nume administrator schimbat " + NumeSchimbat)
+        
+
+var LocalitateSchimbata 
+LocalitateSchimbata = "Campina"
+         alert ("Numele localitatii schimbate " + LocalitateSchimbata)
