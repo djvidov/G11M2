@@ -16,7 +16,7 @@ var Durata
 
 var EsteOnline 
     EsteOnline = true
-    console.log("Curse se desfasoara online " + EsteOnline)
+    console.log("Cursul se desfasoara online " + EsteOnline)
     
 var Locatie 
     Locatie = "Acasa"
@@ -24,7 +24,7 @@ var Locatie
 
 var aInnebunit 
     aInnebunit = true
-    console.log("Ai innebunit " + aInnebunit)
+     console.log("Ai innebunit " + aInnebunit)
 
 var punctajCursant1
     punctajCursant1 = 80
