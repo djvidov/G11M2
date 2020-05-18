@@ -30,7 +30,7 @@ function imparte(a , b )
 //4. Creati functia Inmultire care primeste 3 parametri si care nu returneaza nimic, in schimb afiseaza rezultatul in alert
 function inmulteste(a , b , c){
     var produs = a*b*c
-    alert(`Inmultirea numerelor ${a} , ${b}, ${c} este ${produs}`)
+    console.log(`Inmultirea numerelor ${a} , ${b}, ${c} este ${produs}`)
 
 }
 
