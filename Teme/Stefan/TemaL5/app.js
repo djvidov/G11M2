@@ -46,4 +46,4 @@ console.log(listaCumparaturi.length)
 for( i=0;i<listaCumparaturi.length;i++){
     console.log(listaCumparaturi[i])
 }
-    
+
