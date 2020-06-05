@@ -37,22 +37,26 @@ function numaraJucatori(listaJucatori) {
 }
 
 var nrJucatoriFotbal = numaraJucatori(jucatoriFotbal)
-alert(nrJucatoriFotbal)
+//alert(nrJucatoriFotbal)
 
 var nrJucatoriRugby = numaraJucatori(jucatoriRugby)
-alert(nrJucatoriRugby)
+//alert(nrJucatoriRugby)
 
 var nrGagiciBobomba = numaraJucatori(listaGagiciBune)
-alert(nrGagiciBobomba)
+//alert(nrGagiciBobomba)
 
 // 2. Creati o functie care afiseaza toti jucatorii dintr-o lista (lista de jucatori va fi parametru)
-function afiseazaJucatori(listaJucatori) {
-    for (let index = 0; index < listaJucatori.length; index++) {
 
-
+function afiseazaPersoane(listaPersoane) {
+    for (let index = 0; index < listaPersoane.length; index++) {
+        console.log(listaPersoane[index])
     }
 }
-console.log(afiseazaJucatori(jucatoriFotbal))
+afiseazaPersoane(jucatoriFotbal)
+
+afiseazaPersoane(jucatoriRugby)
+
+afiseazaPersoane(listaGagiciBune)
 
 // 3. Creati o functie care sorteaza in ordine crescatoare jucatorii dintr-o lista (lista de jucatori va fi parametru) va returna o lista sortata
 // 4. folositi cele 3 functiii pentru ambele liste de jucatori 
