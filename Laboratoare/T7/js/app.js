@@ -55,7 +55,7 @@ var jucatoriRugby = [
 ]
 
 // 1. Creati o functie care numara jucatorii dintr-o lista (lista de jucatori va fi parametru)
-// 2. Creati o functie care afiseaza toti jucatorii dintr-o lista (lista de jucatori va fi parametru)
+// 2. Creati o functie care afiseaza toti jucatorii dintr-o lista (lista de jucatori va fi parametrulist)
 // 3. Creati o functie care sorteaza in ordine crescatoare jucatorii dintr-o lista (lista de jucatori va fi parametru) va returna o lista sortata
 // 4. folositi cele 3 functiii pentru ambele liste de jucatori 
 
