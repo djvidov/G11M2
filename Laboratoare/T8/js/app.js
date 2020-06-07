@@ -73,12 +73,12 @@ afiseazajucatori(listaGagiciBune)
 function numeFunctie(/* lista de parametri */) {
     // Codul ce va fi executat de/in functie
 }
-//2. Utilizarea/Apelarea functiei 
+//2. Utilizarea/Apelarea functiei
 numeFunctie(/*lista de parametri */)
 
 //tipuri de functii:
 //Scopul parametrului(parametrilor)? Parametri = Inputuri (valori de intrare) => O modalitate prin care programatorul poate trimite
-// informatii catre functie. Aceste informatii vin din exteriorul functiei. 
+// informatii catre functie. Aceste informatii vin din exteriorul functiei.
 //Ex: adunare(4,5)
 //1. Functii fara parametri -> Functia noastra nu i-a informatii din exterior.
 function afiseazaJF() {
