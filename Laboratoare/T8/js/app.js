@@ -37,19 +37,6 @@ function numaraJucatori(listaJucatori) {
 }
 
 var nrJucatoriFotbal = numaraJucatori(jucatoriFotbal)
-<<<<<<< HEAD
-//alert(nrJucatoriFotbal)
-
-var nrJucatoriRugby = numaraJucatori(jucatoriRugby)
-//alert(nrJucatoriRugby)
-
-var nrGagiciBobomba = numaraJucatori(listaGagiciBune)
-//alert(nrGagiciBobomba)
-
-// 2. Creati o functie care afiseaza toti jucatorii dintr-o lista (lista de jucatori va fi parametru)
-
-function afiseazaPersoane(listaPersoane) {
-=======
 console.log(nrJucatoriFotbal)
 
 var nrJucatoriRugby = numaraJucatori(jucatoriRugby)
@@ -96,20 +83,11 @@ afiseazaJF()
 //2. Functii cu parametri
 function afiseazaPersoane(listaPersoane) {
     console.log("Am Apelat functia afiseazaPersoane")
->>>>>>> 20530f2d0765ef4ae969f10c69d29e1d920d7182
     for (let index = 0; index < listaPersoane.length; index++) {
         console.log(listaPersoane[index])
     }
     console.log("Am Terminat functia afiseazaPersoane")
 }
-<<<<<<< HEAD
-afiseazaPersoane(jucatoriFotbal)
-
-afiseazaPersoane(jucatoriRugby)
-
-afiseazaPersoane(listaGagiciBune)
-=======
->>>>>>> 20530f2d0765ef4ae969f10c69d29e1d920d7182
 
 afiseazaPersoane(jucatoriFotbal)
 afiseazaPersoane(jucatoriFotbal)
@@ -142,3 +120,39 @@ console.log("NrJF = " + nrJF)
 // 3. Creati o functie care sa calculeze si sa afiseze perimetrul cercului
 // 4. Creati o functie care sa calculeze volumul unei piscine (L, l, I) si sa returneze rezultatul
 // 1. De terminat punctele 3 si 4 de mai sus
+
+
+
+var listaNumere = [
+    20,
+    17,
+    35,
+    2,
+    9,
+    24,
+    5
+]
+
+function ordoneazaNumereCrescator(listaNumere) {
+    for (let index = 0; index < listaNumere.length; index++) {
+        if (listaNumere[index] > listaNumere[index + 1]) {
+            var temp = listaNumere[index + 1]
+            listaNumere[index + 1] = listaNumere[index]
+            listaNumere[index] = temp
+
+        }
+
+    }
+    return listaNumere
+}
+var numereOrdonateCrescator = ordoneazaNumereCrescator(listaNumere)
+console.log(numereOrdonateCrescator)
+console.log(listaNumere)
+
+// 3. Creati o functie care sorteaza in ordine crescatoare jucatorii dintr-o lista (lista de jucatori va fi parametru) va returna o lista sortata
+
+var l2 = [1, 3, 2, 4, 3, 5, 4, 7, 5, 6, 8, 9, 0]
+// Teme
+// 1. sa creati o functie care sa afiseze doar numerele impare dintr-o lista
+// 2. Sa creati o functie care sa returneze doar numerele pare dintr-o lista
+// 3. Sa rasturnati o lista ( primul element devine ultimul , ultimul element devine primul, etc)
