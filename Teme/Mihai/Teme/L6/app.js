@@ -1,26 +1,27 @@
 function scadere(a, b){
     var scadere=a-b
     alert(`Scaderea numerelor ${a} si ${b} este ${scadere}`)
-    }
-    scadere(8, 4)
-    
+    pahar=scadere(8, 4)
+    return pahar}
     function adunare(a, b, c){
-        var suma=a+b+c
+        var pahar=a+b+c
         alert(`Adunarea numerelor ${a} ,${c} si ${b} este ${suma}`)
-        }
-        adunare (8, 4,3)
     
+        pahar=adunare (8, 4,3)
+    return pahar}
         function impartire(a, b) {
             var impartire= a / b
             alert(`Suma numerelor ${a} si ${b} este ${impartire}`)
-        }
-        impartire(8,4)
+        
+        pahar=impartire(8,4)
+        return pahar}
         
         function inmultire(a,b,c) {
             var inmultire =a*b*c
             alert(`rezultatul inmultirii este ${inmultire} `)
-        }
-            inmultire(8,4,3)
+        
+           pahar=inmultire(8,4,3)
+           return pahar}
      
         
      
