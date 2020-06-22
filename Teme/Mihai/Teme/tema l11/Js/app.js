@@ -31,6 +31,6 @@ function evaluareaScorului(temperaturaAerului) {
         console.log("POTI SA BEI!")
     }
 }
-evaluareaScorului(3)
+evaluareaScorului(4)
 evaluareaScorului(7)
 evaluareaScorului(16)
