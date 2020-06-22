@@ -1,6 +1,5 @@
 //1. Sa se realizeze cu swich case o functie care sa se numeasca actiune jucator pe tastele: w, a, s, d, l
-var directie = "w"
-function actiuneJucator() {
+function actiuneJucator(directie) {
     switch (directie) {
         case "w":
             console.log("Mergi in sus")
@@ -23,7 +22,16 @@ function actiuneJucator() {
             break;
     }
 }
-console.log(actiuneJucator())
+actiuneJucator("w")
+
+actiuneJucator("a")
+
+actiuneJucator("s")
+
+actiuneJucator("d")
+
+actiuneJucator("l")
+
 
 //2. Sa se realizeze o functie care sa evalueze scorul obtinut de un jucator astfel:
 // daca scorul este sub 5 afisati: este varza
@@ -38,15 +46,13 @@ function afiseazaScor(scor) {
     else if (scor < 15) {
         console.log("Mai ai de exersat")
     }
-    if (scor > 15) {
+    else {
         console.log("Esti bun")
     }
 }
 
-console.log(afiseazaScor(4))
-console.log(afiseazaScor(6))
-console.log(afiseazaScor(10))
-console.log(afiseazaScor(15))
-console.log(afiseazaScor(20))
+afiseazaScor(15)
+
+
 
 
