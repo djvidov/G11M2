@@ -1,3 +1,8 @@
+function saApasatTasta(e) {
+    //console.log(e.key)
+    actiuneJucator(e.key)
+}
+
 //1. Sa se realizeze cu swich case o functie care sa se numeasca actiune jucator pe tastele: w, a, s, d, l
 function actiuneJucator(directie) {
     switch (directie) {
