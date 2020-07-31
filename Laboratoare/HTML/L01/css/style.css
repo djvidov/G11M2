@@ -1,0 +1,23 @@
+/* body{
+    background-color: black;
+} */
+
+h1{
+    color: cadetblue;
+    font-size: 14px;
+}
+
+/* p{
+    color: chocolate;
+    background-color: cornflowerblue;
+} */
+
+.night{
+    background-color: darkgray;
+    color:white;
+}
+
+.day{
+    background-color: lightblue;
+    color: darkred;
+}
