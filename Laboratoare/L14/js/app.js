@@ -38,4 +38,46 @@ nume1[nume1.length - 1]
 
 
 //5. Afizati pentru fiecare variabila daca textul este palindrom
+function suntPalindroame(textOriginal, textInversat) {
+    if (textOriginal == textInversat) {
+        return true
+    }
+    return false
+}
 
+if (suntPalindroame("ana", "ana")) {
+    console.log("ana este un cuvant palindrom")
+}
+else {
+    console.log("ana nu este un cuvant palindrom")
+}
+if (suntPalindroame("nana", "anan")) {
+    console.log("nana este un cuvant palindrom")
+}
+else {
+    console.log("nana nu este un cuvant palindrom")
+}
+
+var ePalindrom = suntPalindroame("ana", "ana")
+if (ePalindrom) {
+    console.log("ana este un cuvant palindrom")
+}
+else {
+    console.log("ana nu este un cuvant palindrom")
+}
+
+ePalindrom = suntPalindroame("nana", "anan")
+if (ePalindrom) {
+    console.log("nana este un cuvant palindrom")
+}
+else {
+    console.log("nana nu este un cuvant palindrom")
+}
+
+// i: iterator
+//s1: initierea
+//s2: conditionarea
+//s3: incrementarea
+for (var i = 0; i < 10; i++) {
+
+}
