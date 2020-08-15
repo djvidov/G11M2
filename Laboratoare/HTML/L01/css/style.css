@@ -17,7 +17,8 @@ h1{
     color:white;
 }
 
-.day{
+.day {
     background-color: lightblue;
-    color: darkred;
+    color: rgb(126, 114, 114);
+    font-weight: bold;
 }
