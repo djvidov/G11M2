@@ -6,6 +6,22 @@ function changeDiv1() {
     }
 }
 
+function switchThems() {
+    var page = document.getElementsByTagName('div')[0]
+    if (page != null) {
+        if (page.classList.contains('theme1')) {
+            page.classList.remove('theme1')
+            page.classList.add('theme2')
+
+        } else {
+            page.classList.remove('theme2')
+            page.classList.add('theme1')
+
+        }
+
+    }
+}
+
 function changeDiv2() {
     var page = document.getElementsByTagName('div')[0]
     if (page != null) {
