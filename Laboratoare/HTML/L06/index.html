@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag-uri si iar tag-uri</title>
+</head>
+
+<body>
+    <div style="border: 4px solid red;">
+        Primul div
+        <div style="border: 3px solid blue;">
+            al treilea div
+        </div>
+        <div style="border: 2px solid blueviolet;">
+            al patrulea div
+        </div>
+        <div style="border: 4px solid green;">
+            al cincilea div
+            <div style="border: 2px solid red; display: inline;">
+                some div
+            </div>
+            <span style="border: 2px solid blueviolet; display: block;">
+                aceasta este un span
+            </span>
+        </div>
+        <form>
+            <fieldset>
+                <legend>Log in</legend>
+                <input type="text" name="prenume" id="prenume" placeholder="Introdu numele tau"><br>
+                <input type="password" name="passwordInput" id="passwordInput"><br>
+                <input type="submit" value="Submit">
+                <input type="button" value="something">
+            </fieldset>
+        </form>
+        <form>
+            <input type="radio" name="varsta" id="valoare" value="unu" checked>1 an<br>
+            <input type="radio" name="varsta" value="2">2 an<br>
+            <input type="radio" name="varsta" value="3">3 an<br>
+            <input type="checkbox" name="major" value="Yes">Sunt major<br>
+            <input type="button" onclick="something" value="Click me!"><br>
+            <input type="number" name="alegeNumar" value="50" min="-50" max="100" step="50"><br>
+            <input type="date" name="dataNastere" min="1999-10-10" max="2021-10-20"><br>
+            <input type="color" name="colors"><br>
+            <input type="range" name="numaistiunume" min="0" max="10"><br>
+            <input type="time" nume="timp"><br>
+            <input type="datetime-local" nume="datetime"><br>
+            <input type="email" name="email"><br>
+            <input type="search" name="searchforsomething"><br>
+            <input type="tel" name="telefon"><br>
+            <input type="url" name="url"><br>
+            <textarea name="textarea" rows="1" cols="20">
+                salutare
+            </textarea><br>
+            <button type="button" onclick="alert('ce faceti')">Apasa-ma</button><br>
+            <select>
+                <optgroup label="Romania">
+                    <option value="Focsani">Focsani</option>
+                    <option value="Bucurest">Bucuresti</option>
+                </optgroup>
+                <optgroup label="Grecia">
+                    <option value="Atena">Atena</option>
+                    <option value="Athos">Athos</option>
+                </optgroup>
+            </select><br>
+            <input list="beri"><br>
+            <datalist id="beri">
+                <option value="Timisoreana">
+                <option value="Ursus">
+                <option value="Ciucas">
+            </datalist>
+        </form>
+        <progress value="22" max="100">
+    </div>
+</body>
+
+</html>
