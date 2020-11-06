@@ -1,0 +1,73 @@
+body{
+    /* background-color: rgba(255, 100, 200, 0.9); */
+    background-color: #3f7cff;
+}
+
+/* Selectarea dupa descendenti */
+div p {
+    background-color: seashell;
+}
+/* Selectarea copiilor */
+div > p {
+    background-color: skyblue;
+}
+/* Selectarea elementului de dupa div */
+/* div + p {
+    background-color: green;
+} */
+/* Selectarea elementelor de dupa div */
+div ~ p {
+    background-color: greenyellow;
+}
+
+a:hover{
+    color: rgb(100, 100, 100);
+}
+/* a:active{
+    color: blue;
+} */
+a:visited{
+    color: white;
+}
+/* a.pseudoclasa:actiune{
+    atribute
+} */
+.paragraf{
+    color: blueviolet;
+}
+.highlight{
+    font-size: 50px
+}
+a.highlight:hover{
+    color: black;
+}
+a:hover i {
+    color: black;
+}
+a:hover b {
+    color: blue;
+}
+input:hover {
+    background-color: blue;
+    color: white;
+}
+p.paragraf::first-letter {
+    color: black;
+    font-size: xx-large;
+}
+.center{
+    text-align: center;
+}
+.underline{
+    text-decoration: line-through;
+    /* text-decoration: overline; */
+}
+.no-underline{
+    text-decoration: none;
+}
+p {
+    text-indent: 10px;
+}
+.capitalize{
+    text-transform: uppercase;
+}
