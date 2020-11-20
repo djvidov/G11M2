@@ -1,0 +1,52 @@
+p.large {
+    letter-spacing: 10px;
+}
+.large{
+    color: salmon;
+}
+.word-spacing {
+    word-spacing: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.line-spacing {
+    line-height: 50px;
+}
+.direction {
+    direction: rtl;
+}
+.bold {
+    font-weight: bold;
+}
+.verticalAlign {
+    vertical-align: -100px;
+}
+.shadow {
+    text-shadow: 0px -7px 0px rgba(150, 150, 204, 0.5);
+}
+p {
+    font-size: 14px;
+    font-weight: lighter;
+}
+ul {
+    list-style-position: inside;
+}
+li {
+    display: inline;
+}
+.visibility{
+    visibility: hidden;
+    display: none;
+}
+table,th,td{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+td {
+    padding: 20px;
+}
+th:hover {
+    background-color: seagreen;
+}
+caption {
+    caption-side: top;
+}
