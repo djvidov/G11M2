@@ -1,0 +1,36 @@
+body{
+    background: rgb(233, 50, 230);
+    background: -moz-linear-gradient(30deg, rgb(233, 50, 230) 30%, rgb(90, 140, 250) 70%);
+    background: -webkit-linear-gradient(30deg, rgb(233, 50, 230) 30%, rgb(90, 140, 250) 70%);
+    background: -o-linear-gradient(30deg, rgb(233, 50, 230) 30%, rgb(90, 140, 250) 70%);
+    background: -ms-linear-gradient(30deg, rgb(233, 50, 230) 30%, rgb(90, 140, 250) 70%);
+    background: linear-gradient(120deg, rgb(233, 50, 230) 30%, rgb(90, 140, 250) 70%);
+}
+
+.meniu{
+    font-size: 40px;
+    word-spacing: 100px;
+    text-align: center;
+}
+
+a:hover{
+    color:white;
+    background-color: black;
+}
+.div{
+    width: 200px;
+    height: 200px;
+    float: right;
+    border-style: double;
+    border-radius: 10px;
+    text-align: center;
+}
+table, td, tr{
+    border:1px;
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 30px;
+    margin: 20px 20px 20px 20px ;
+   
+}
+
